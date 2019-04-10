@@ -8,7 +8,6 @@ public class User {
     private String name;
     private String lastName;
     private int age;
-    private Date dob;
     private String email;
 
     public User(String userName, String name, String lastName, int age, Date dob, String email) {
@@ -50,14 +49,6 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public Date getDob() {
-        return dob;
-    }
-
-    public void setDob(Date dob) {
-        this.dob = dob;
     }
 
     public String getEmail() {

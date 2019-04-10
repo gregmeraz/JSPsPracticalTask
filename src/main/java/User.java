@@ -1,7 +1,5 @@
 package main.java;
 
-import java.util.Date;
-
 public class User {
 
     private String userName;
